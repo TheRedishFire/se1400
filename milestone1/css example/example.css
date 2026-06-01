@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h2 {
+  color: #2C3E50;
+  margin-top: 2rem;
+}
+
+.box {
+  padding: 1rem;
+  margin: 1rem 0;
+  background-color: #f9f9f9;
+}
+
+.box strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #2C3E50;
+}
+
+.box p {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.solid-border {
+  border: 3px solid #593d87;
+}
+
+.dashed-border {
+  border: 3px dashed #8094d6;
+}
+
+.dotted-border {
+  border: 3px dotted #FF6B6B;
+}
+
+.double-border {
+  border: 10px double red;
+}
+
+.rounded-small {
+  border: 3px solid #593d87;
+  border-radius: 0.5rem;
+}
+
+.rounded-large {
+  border: 3px solid #8094d6;
+  border-radius: 1.5rem;
+}
+
+.rounded-ellipse {
+  border: 3px solid #FF6B6B;
+  border-radius: 1em 1.5em;
+}
+
+.rounded-circle {
+  border: 3px solid #27ae60;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
