@@ -299,6 +299,8 @@ a {
 .card-item a {
     font-weight: bold;
     color: #241f21;
+    overflow-wrap: break-word; 
+    word-break: break-word;
 }
 
 .card-item a:hover {
